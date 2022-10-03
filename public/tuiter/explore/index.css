@@ -73,6 +73,12 @@ body {
     border-bottom-width: 1px;
 }
 
+.wd-border-top {
+    border-top-color: rgb(47, 51, 54);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
 .wd-border-line {
     height: 15px;
     background-color:darkgray;

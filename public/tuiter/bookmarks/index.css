@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Arial";
+}
+
+.wd-border-horizontal {
+    border-left-color: rgb(47, 51, 54);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(47, 51, 54);
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.wd-border-vertical {
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: rgb(47, 51, 54);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.wd-padding-left12 {
+    padding-left: 12px;
+}
+
+.wd-padding-left16 {
+    padding-left: 16px;
+}
+
+.wd-padding-top12 {
+    padding-top: 12px;
+}
+
+.wd-padding-bottom12 {
+    padding-bottom: 12px;
+}
+
+.wd-font20 {
+    font-size: 20px;
+}
+
+.wd-font13 {
+    font-size: 13px;
+}
+
+.wd-font15 {
+    font-size: 15px;
+}
+
+.wd-color-lightgray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-font-bold {
+    font-weight: bold;
+}
+
+.wd-profile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-container {
+    display:flex;
+}
+
+.wd-border-radius {
+    border-radius: 20px;
+}
+
+/*.wd-space-evenly {*/
+/*    display:flex;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+.wd-margin-top12 {
+    margin-top: 12px;
+}
+.wd-maxwidth {
+    max-width: 506px;
+}
+
+.wd-picture {
+    width: 504px;
+    height: 264px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.wd-width {
+    width: 504px;
+}
+
+.wd-padding-left12 {
+    padding-left: 12px;
+}
+
+.wd-padding-right12 {
+    padding-right: 12px;
+}
+
+.wd-border-bottom {
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div > a {
+    color: rgb(110,118,125);
+    display: inline-block;
+    width: 23%;
+}
+
+.wd-red {
+    color:red;
+}
+
