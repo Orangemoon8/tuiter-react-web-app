@@ -1,7 +1,12 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: "Arial";
+    background-color: white;
+    color: black;
+    /*font-family: "Arial";*/
+}
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
 }
 
 .wd-nav-tabs {
