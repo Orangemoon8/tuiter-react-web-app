@@ -4,56 +4,91 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-          rel="stylesheet"/>
+<!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"-->
+<!--          rel="stylesheet"/>-->
+    <link href="../../vendors/fontawesome-free-6.2.0-web/css/all.min.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="container pt-2">
         <div class="row">
-            <div class="col-2">
+<!--            left content-->
+            <div class="col-2 col-xl-2 col-lg-1">
                 <div class="list-group">
-                    <a href="https://en.wikipedia.org/wiki/Dune_(novel)" class="list-group-item list-group-item-action">
-                        Home
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" class="list-group-item list-group-item-action active">
-                        Explore
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-home"></i>
+                        <span class="d-none d-xl-block">
+                            Home
+                        </span>
                     </a>
-                    <a href="https://en.wikipedia.org/wiki/The_Forever_War" class="list-group-item list-group-item-action">
-                        Notifications
+                    <a href="#" class="list-group-item list-group-item-action active">
+                        <i class="fas fa-hashtag"></i>
+                        <span class="d-none d-xl-block">
+                            Explore
+                        </span>
                     </a>
-                    <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)" class="list-group-item list-group-item-action">
-                        Messages
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-bell"></i>
+                        <span class="d-none d-xl-block">
+                            Notifications
+                        </span>
                     </a>
-                    <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
-                        Bookmarks
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-envelope"></i>
+                        <span class="d-none d-xl-block">
+                            Messages
+                        </span>
                     </a>
-                    <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
-                        Lists
+                    <a href="#" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                        <i class="fas fa-bookmark"></i>
+                        <span class="d-none d-xl-block">
+                            Bookmarks
+                        </span>
                     </a>
-                    <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
-                        Profile
+                    <a href="#" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                        <i class="fas fa-list"></i>
+                        <span class="d-none d-xl-block">
+                            Lists
+                        </span>
                     </a>
-                    <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
-                        More
+                    <a href="#" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                        <i class="fas fa-user"></i>
+                        <span class="d-none d-xl-block">
+                            Profile
+                        </span>
                     </a>
+                    <a href="#" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+                        <span class="fa-stack fa-2xs">
+                            <i class="fa-solid fa-circle fa-stack-2x"></i>
+                            <i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse" style="color: white"></i>
+                        </span>
+                        <span class="d-none d-xl-block">
+                            More
+                        </span>
+                    </a>
+
                 </div>
-                <button class="btn btn-primary w-100 mt-1 rounded-pill">
-                    Tuit
+                <button class="btn btn-primary float-start w-100 wd-tweet-size mt-2 rounded-pill">
+                    Tweet
                 </button>
             </div>
 
-            <div class="col-6">
+            <div class="col-10 col-xl-6 col-lg-7">
 <!--                search bar-->
                 <div class="row">
                     <div class="col-10">
                         <div class="position-relative">
                             <input class="form-control rounded-pill ps-5" placeholder="Search Tuiter"/>
-                            <span class="position-absolute wd-search-tuiter">O-</span>
+                            <span class="position-absolute wd-search-tuiter">
+                                <i class="fas fa-search"></i>
+                            </span>
                         </div>
                     </div>
                     <div class="col-2">
-                        COGS
+                        <i class="fas fa-cog fa-2x float-end" style="color: dodgerblue"></i>
                     </div>
                 </div>
 
@@ -73,14 +108,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1">Sports</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-sm-block">
                         <a class="nav-link" href="#" tabindex="-1">Entertainment</a>
                     </li>
                 </ul>
 <!--                starship  image-->
                 <div class="position-relative">
                     <img src="../../images/starship.jpg" width="100%"/>
-                    <h1 class="position-absolute bottom-0 left-0 text-white">SpaceX's Starship</h1>
+                    <h1 class="position-absolute bottom-0 text-white">SpaceX's Starship</h1>
                 </div>
 <!--                Tuit below starship-->
                 <ul class="list-group">
@@ -90,33 +125,226 @@
                                 <div class="text-secondary">
                                     Web Development
                                 </div>
-                                <div class="fw-bolder">
-                                    React JS - 2h
+                                <div>
+                                    <b>ReactJS</b>
+                                    <span class="fa-stack wd-font8">
+                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="text-secondary"> - 2h</span>
                                 </div>
                                 <div class="fw-bolder">
-                                    React.js is a Single Page Application framework
+                                    React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 my-auto">
                                 <img class="float-end" src="../../images/reactlogo.png" height="100px"/>
                             </div>
                         </div>
-
                     </li>
-                    <li class="list-group-item">Tuit 123</li>
-                    <li class="list-group-item">Tuit 123</li>
-                    <li class="list-group-item">Tuit 123</li>
-                    <li class="list-group-item">Tuit 123</li>
-                    <li class="list-group-item">Tuit 123</li>
-                    <li class="list-group-item">Tuit 123</li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-8">
+                                <div>
+                                    <b>JavaScript</b>
+                                    <span class="fa-stack wd-font8">
+                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="text-secondary"> - 2h</span>
+                                </div>
+                                <div class="fw-bolder">
+                                    JavaScript is programming language that can run on browsers as well as desktops
+                                </div>
+                                <div class="text-secondary">
+                                    123K Tweets
+                                </div>
+                            </div>
+                            <div class="col-4 my-auto">
+                                <img class="float-end" src="../../images/JS.png" height="100px"/>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div class="fw-bolder">
+                                    JQuery
+                                </div>
+                                <div class="text-secondary">
+                                    123K Tweets
+                                </div>
+                            </div>
+                            <div class="col-4 my-auto">
+                                <img class="float-end" src="../../images/JQuery.jpg" height="100px"/>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div>
+                                    <b>NodeJS</b>
+                                    <span class="fa-stack wd-font8">
+                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="text-secondary"> - 2h</span>
+                                </div>
+                                <div class="text-secondary">
+                                    123K Tweets
+                                </div>
+                            </div>
+                            <div class="col-4 my-auto">
+                                <img class="float-end" src="../../images/NodeJS.png" height="100px"/>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-
-
-
             </div>
 
-            <div class="col-4">
-                Who to follow goes here
+            <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                <div class="list-group">
+                    <div class="list-group-item fw-bolder">
+                        Who to follow
+                    </div>
+
+                    <div class="list-group-item">
+                       <div class="row">
+                           <div class="col-2 my-auto">
+                               <img src="../../images/java.jpg" class="rounded-circle w-100">
+                           </div>
+                           <div class="col-7 my-auto">
+                               <div>
+                                   <span class="fw-bolder">Java<span/>
+                                   <span class="fa-stack wd-font8">
+                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                               </div>
+                               <div>
+                                   @Java
+                               </div>
+                           </div>
+                           <div class="col-3 my-auto">
+                               <button class="btn btn-primary rounded-pill float-end">
+                                   Follow
+                               </button>
+                           </div>
+                       </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2 my-auto">
+                                <img src="../../images/relativityspace.jpg" class="rounded-circle w-100">
+                            </div>
+                            <div class="col-7 my-auto">
+                                <div class="text-nowrap">
+                                   <span class="fw-bolder">Relativity Space<span/>
+                                   <span class="fa-stack wd-font8">
+                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <div>
+                                    @relativityspace
+                                </div>
+                            </div>
+                            <div class="col-3 my-auto">
+                                <button class="btn btn-primary float-end rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2 my-auto">
+                                <img src="../../images/virgin.png" class="rounded-circle w-100">
+                            </div>
+                            <div class="col-7 my-auto">
+                                <div>
+                                   <span class="fw-bolder">Virgin Galactic<span/>
+                                   <span class="fa-stack wd-font8">
+                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <div>
+                                    @virgingalactic
+                                </div>
+                            </div>
+                            <div class="col-3 my-auto">
+                                <button class="btn btn-primary float-end rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2 my-auto">
+                                <img src="../../images/NASA.jpg" class="rounded-circle w-100">
+                            </div>
+                            <div class="col-7 my-auto">
+                                <div>
+                                   <span class="fw-bolder">NASA<span/>
+                                   <span class="fa-stack wd-font8">
+                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <div>
+                                    @NASA
+                                </div>
+                            </div>
+                            <div class="col-3 my-auto">
+                                <button class="btn btn-primary float-end rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="row">
+                            <div class="col-2 my-auto">
+                                <img src="../../images/TESLA.jpg" class="rounded-circle w-100">
+                            </div>
+                            <div class="col-7 my-auto">
+                                <div>
+                                   <span class="fw-bolder">Tesla<span/>
+                                   <span class="fa-stack wd-font8">
+                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
+                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </div>
+                                <div>
+                                    @Tesla
+                                </div>
+                            </div>
+                            <div class="col-3 my-auto">
+                                <button class="btn btn-primary float-end rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
