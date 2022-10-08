@@ -1,11 +1,10 @@
 body {
     background-color: black;
-    color: white;
 }
 
 .wd-search-tuiter {
-    bottom: 7px;
-    left: 10px;
+    top: 7px;
+    left: 15px;
 }
 
 .wd-font8 {
@@ -15,6 +14,38 @@ body {
 .wd-tweet-size {
     min-width: 70px;
 }
+
+.wd-border-horizontal {
+    border-left-color: rgb(47, 51, 54);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(47, 51, 54);
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.wd-bg-gray {
+    background-color: rgb(47, 51, 54);
+
+}
+
+.wd-font20 {
+    font-size: 20px;
+}
+
+.wd-font15 {
+    font-size: 15px;
+}
+/*.wd-border-bottom {*/
+/*    border-bottom-color: rgb(47, 51, 54);*/
+/*    border-bottom-style: solid;*/
+/*    border-bottom-width: 1px;*/
+/*}*/
+
+/*.wd-selected {*/
+/*    color: rgb(29,161,242);*/
+/*    border-bottom: solid 4px rgb(29,161,242);*/
+/*}*/
 
 /*.wd-nav-tabs {*/
 /*    color: rgb(110, 118, 125);*/
@@ -31,10 +62,6 @@ body {
 
 /*}*/
 
-/*.wd-nav-tabs .wd-selected {*/
-/*    color: rgb(29,161,242);*/
-/*    border-bottom: solid 4px rgb(29,161,242);*/
-/*}*/
 
 /*.wd-input-box {*/
 /*    height: 25px;*/
@@ -70,20 +97,6 @@ body {
 /*    padding-left: 15px;*/
 /*}*/
 
-/*.wd-border-horizontal {*/
-/*    border-left-color: rgb(47, 51, 54);*/
-/*    border-left-style: solid;*/
-/*    border-left-width: 1px;*/
-/*    border-right-color: rgb(47, 51, 54);*/
-/*    border-right-style: solid;*/
-/*    border-right-width: 1px;*/
-/*}*/
-
-/*.wd-border-bottom {*/
-/*    border-bottom-color: rgb(47, 51, 54);*/
-/*    border-bottom-style: solid;*/
-/*    border-bottom-width: 1px;*/
-/*}*/
 
 /*.wd-border-top {*/
 /*    border-top-color: rgb(47, 51, 54);*/
