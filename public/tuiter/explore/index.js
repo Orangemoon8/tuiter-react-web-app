@@ -1,5 +1,6 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import WhoToFollowList from "../WhoToFollowList/index.js";
+import PostSummaryList from "../PostSummaryList/index.js";
 
 function exploreComponent() {
     $('#wd-explore').append(`
@@ -53,104 +54,13 @@ function exploreComponent() {
                     <h1 class="position-absolute bottom-0 text-white">SpaceX's Starship</h1>
                 </div>
 <!--                Tuit below starship-->
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-8">
-                                <div class="text-secondary">
-                                    Web Development
-                                </div>
-                                <div>
-                                    <b>ReactJS</b>
-                                    <span class="fa-stack wd-font8">
-                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
-                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                    <span class="text-secondary"> - 2h</span>
-                                </div>
-                                <div class="fw-bolder">
-                                    React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs
-                                </div>
-                            </div>
-                            <div class="col-4 my-auto">
-                                <img class="float-end" src="../../images/reactlogo.png" height="100px"/>
-                            </div>
-                        </div>
-                    </li>
+                ${PostSummaryList()}
 
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-8">
-                                <div>
-                                    <b>JavaScript</b>
-                                    <span class="fa-stack wd-font8">
-                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
-                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                    <span class="text-secondary"> - 2h</span>
-                                </div>
-                                <div class="fw-bolder">
-                                    JavaScript is programming language that can run on browsers as well as desktops
-                                </div>
-                                <div class="text-secondary">
-                                    123K Tweets
-                                </div>
-                            </div>
-                            <div class="col-4 my-auto">
-                                <img class="float-end" src="../../images/JS.png" height="100px"/>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-8">
-                                <div class="text-secondary">
-                                    Web Development
-                                </div>
-                                <div class="fw-bolder">
-                                    JQuery
-                                </div>
-                                <div class="text-secondary">
-                                    123K Tweets
-                                </div>
-                            </div>
-                            <div class="col-4 my-auto">
-                                <img class="float-end" src="../../images/JQuery.jpg" height="100px"/>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col-8">
-                                <div class="text-secondary">
-                                    Web Development
-                                </div>
-                                <div>
-                                    <b>NodeJS</b>
-                                    <span class="fa-stack wd-font8">
-                                        <i class="fa-solid fa-circle fa-stack-2x"></i>
-                                        <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                    <span class="text-secondary"> - 2h</span>
-                                </div>
-                                <div class="text-secondary">
-                                    123K Tweets
-                                </div>
-                            </div>
-                            <div class="col-4 my-auto">
-                                <img class="float-end" src="../../images/NodeJS.png" height="100px"/>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
             </div>
 
 <!--            right side bar-->
             <div class="col-xl-4 col-lg-4 d-none d-lg-block">
                 ${WhoToFollowList()}
-
             </div>
         </div>
     </div>
