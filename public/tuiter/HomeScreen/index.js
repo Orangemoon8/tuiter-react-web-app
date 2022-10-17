@@ -15,7 +15,6 @@ function exploreHomeScreen() {
                 ${PostList()}
             </div>
             <div class="col-lg-4 col-xl-4 d-none d-lg-block">
-                bbb
                 ${PostSummaryList()}
             </div>
         </div>

@@ -7,10 +7,10 @@ const PostSummaryItem = (post) => {
                         ${post.topic}
                     </div>
                     <div>
-                        <b>${post.userName}</b>
+                        <b>${post.username}</b>
                         <span class="fa-stack wd-font8">
                             <i class="fa-solid fa-circle fa-stack-2x"></i>
-                            <i class="fa-solid fa-check fa-stack-1x fa-inverse"></i>
+                            <i class="fa-solid fa-check fa-stack-1x fa-inverse text-black"></i>
                         </span>
                         <span class="text-secondary">
                             - ${post.time}

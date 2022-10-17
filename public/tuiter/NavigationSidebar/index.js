@@ -43,7 +43,7 @@ const NavigationSidebar = (active) => {
             <a href="#" class="list-group-item list-group-item-action d-flex">
                 <span class="fa-stack fa-2xs">
                     <i class="fa-solid fa-circle fa-stack-2x"></i>
-                    <i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse" style="color: white"></i>
+                    <i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse" style="color: black"></i>
                 </span>
                 &nbsp;
                 <span class="d-none d-xl-block d-xl-inline">More</span>

@@ -1,7 +1,7 @@
 export default [
     {
         topic: 'Web Development',
-        userName: 'ReactJS',
+        username: 'ReactJS',
         time: '2h',
         image: '../../images/reactlogo.png',
         title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
@@ -9,7 +9,7 @@ export default [
     },
     {
         topic: '',
-        userName: 'JavaScript',
+        username: 'JavaScript',
         time: '3h',
         image: '../../images/JS.png',
         title: 'JavaScript is programming language that can run on browsers as well as desktops',
@@ -17,7 +17,7 @@ export default [
     },
     {
         topic: 'Web Development',
-        userName: 'jQuery',
+        username: 'jQuery',
         time: '3 days',
         title: 'jQuery is a library for convenience of JavaScript',
         image: '../../images/jQuery.jpg',
@@ -25,7 +25,7 @@ export default [
     },
     {
         topic: 'Web Development',
-        userName: 'NodeJS',
+        username: 'NodeJS',
         time: '8h',
         title: '',
         image: '../../images/NodeJS.png',
