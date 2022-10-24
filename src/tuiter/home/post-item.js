@@ -33,7 +33,7 @@ const PostItem = (
                                 </span>
                                 <span className="fa-stack wd-font8">
                                     <i className="fa fa-circle fa-stack-2x"></i>
-                                    <i className="fa fa-check fa-stack-1x fa-inverse text-black"></i>
+                                    <i className="fa fa-check fa-stack-1x fa-inverse"></i>
                                 </span>
                                 <span className="text-secondary">
                                     @{post.handle}
@@ -81,7 +81,7 @@ const PostItem = (
 
                     <div className="row pt-3 ps-3 text-secondary">
                         <div className="col-3">
-                            <span><i className="far fa-comment"></i></span>
+                            <span><i className="fa fa-comment"></i></span>
                             <span className="ps-2">{post.comment_num}</span>
                         </div>
                         <div className="col-3">
@@ -90,7 +90,7 @@ const PostItem = (
                         </div>
                         <div className="col-3">
                             <span>
-                                <i className="far fa-heart"></i>
+                                <i className="fa fa-heart"></i>
                             </span>
                             <span className="ps-2">{post.like_num}</span>
                         </div>
