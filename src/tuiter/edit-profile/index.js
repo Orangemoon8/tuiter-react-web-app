@@ -83,7 +83,7 @@ const EditProfile = () => {
             <div>
                 <span className="text-primary text-decoration-underline" onClick={handleBirth}>Edit Date of Birth</span>
                 {!editBirth && <div>{profile.dateOfBirth}</div>}
-                {editBirth &&<textarea onChange={(e) => setProfile({...profile, dateOfBirth:e.target.value})} value={profile.dateOfBirth}/>}
+                {editBirth &&<textarea onChange={(event) => setProfile({...profile, dateOfBirth:event.target.value})} value={profile.dateOfBirth}/>}
             </div>
             <br/><br/><br/>
         </div>
