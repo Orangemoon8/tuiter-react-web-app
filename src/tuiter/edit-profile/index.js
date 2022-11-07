@@ -40,7 +40,7 @@ const EditProfile = () => {
                     <b> Edit profile</b>
                 </div>
                 <div className="col-3">
-                    <button className="rounded-pill btn btn-primary float-end" onClick={()=>saveProfile(profile)}>Save</button>
+                    <button className="rounded-pill btn btn-primary float-end" onClick={() => saveProfile(profile)}>Save</button>
                 </div>
             </div>
 
@@ -55,23 +55,27 @@ const EditProfile = () => {
                 <ul className="list-group pt-2">
                     <li className="list-group-item">
                         <div className="text-secondary">Name</div>
-                        <textarea className="form-control border-light border-3" onChange={(event)=>{setName(event.target.value)}} value ={Name}/>
+                        <textarea className="form-control border-light border-3"
+                                  onChange={(event)=>{setName(event.target.value)}} value ={Name}/>
 
                     </li>
                     <br/>
                     <li className="list-group-item">
                         <div className="text-secondary">Bio</div>
-                        <textarea className="form-control border-light border-3" onChange={(event)=>setProfile({...profile,bio:event.target.value})} value ={profile.bio}/>
+                        <textarea className="form-control border-light border-3"
+                                  onChange={(event)=>setProfile({...profile, bio:event.target.value})} value ={profile.bio}/>
                     </li>
                     <br/>
                     <li className="list-group-item">
                         <div className="text-secondary">Location</div>
-                        <textarea className="form-control border-light border-3" onChange={(event) => setProfile({...profile, location: event.target.value})} value ={profile.location}/>
+                        <textarea className="form-control border-light border-3"
+                                  onChange={(event) => setProfile({...profile, location: event.target.value})} value ={profile.location}/>
                     </li>
                     <br/>
                     <li className="list-group-item">
                         <div className="text-secondary">Website</div>
-                        <textarea className="form-control border-light border-3" onChange={(event)=>setProfile({...profile,website:event.target.value})} value ={profile.website}/>
+                        <textarea className="form-control border-light border-3"
+                                  onChange={(event)=>setProfile({...profile, website:event.target.value})} value ={profile.website}/>
                     </li>
                 </ul>
             </div>
@@ -79,7 +83,7 @@ const EditProfile = () => {
             <div>
                 <span className="text-primary text-decoration-underline" onClick={handleBirth}>Edit Date of Birth</span>
                 {!editBirth && <div>{profile.dateOfBirth}</div>}
-                {editBirth &&<textarea onChange={(e)=>setProfile({...profile,dateOfBirth:e.target.value})} value={profile.dateOfBirth}/>}
+                {editBirth &&<textarea onChange={(e) => setProfile({...profile,dateOfBirth:e.target.value})} value={profile.dateOfBirth}/>}
             </div>
             <br/><br/><br/>
 
