@@ -1,0 +1,36 @@
+[
+  {
+    "_id": 123,
+    "topic": "Space1",
+    "userName": "SpaceX",
+    "avatarIcon": "spacex.png",
+    "time": "1h",
+    "title": "title 1: Random text",
+    "postimage": "starship.jpg",
+    "image": "starship.jpg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@space1x",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 234,
+    "topic": "Space2",
+    "userName": "SpaceX",
+    "avatarIcon": "TESLA.jpg",
+    "time": "2h",
+    "title": "title 2: Dumb text",
+    "image": "TESLA.jpg",
+    "postimage": "OW2.jpg",
+    "liked": false,
+    "replies": 911,
+    "retuits": 886,
+    "likes": 24,
+    "handle": "@space2x",
+    "tuit": "Tuit content 2: some random text 22222222222222"
+  }
+]
+
+
